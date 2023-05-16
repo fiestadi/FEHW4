@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+padding: 0;
+}
+.container{
+  margin: 20px;
+  padding: 10px;
+  width: 800px;
+  height: 800px;
+  border: 1px solid rgb(54, 37, 206);
+  border-radius: 40px;
+  border-top-right-radius: 40px;
+  background-color: aqua;
+
+}
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+  }
+  
+  .card.active {
+    color: white;
+    background-color: black; 
+    
+
+  }
+  
+  .image{
+    margin: 10px;
+    width: 80px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+  
+    
+  }
+
+  ol{
+    margin: 30px;
+  }
+ 
+  
+  
